@@ -13,8 +13,16 @@
 
 from email.message import EmailMessage
 import os
+import re
 import smtplib
 import ssl
+
+
+def verify_email(email):
+	# source: https://pythonsansar.com/how-to-verify-email-in-python/
+	pattern = '^[A-Za-z0-9]+[\._]?[A-Za-z0-9]+[@]\w+[.]\w{2,3}$'
+	return re.search(pattern, email)
+
 
 def send_email(receiver, subject, message):
 	sender = os.getenv('SECRET1')
@@ -44,4 +52,8 @@ if __name__ == "__main__":
 	subject = input()
 	print("What's the message?")
 	message = input()
-	send_email(receiver, subject, message)
+
+	if verify_email(receiver):
+		send_email(receiver, subject, message)
+	else:
+		print('Email given is invalid.')
