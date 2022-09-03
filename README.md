@@ -1,7 +1,7 @@
-# EmailSender
-Modern way of sending email with Python 3.x
+# Simple Email Sender
+Modern way of sending email with Python 3.x.
 
-# Instructions
+## Instructions
 - Before running the program:
 	- Set up your 2-Step Verification on the email that you will be using. The path is
 	`Manage your google accout>Security>Signin in to Google`
@@ -9,11 +9,15 @@ Modern way of sending email with Python 3.x
 	- Click `GENERATE` and make sure that you copy the generated code
 	- Add the code to your environmental variable or even better if you use venv by python
 
-# Installations
-No need to install anything as everything is already in the default python packages
+## Installations
+If you only want the Simple Email Sender, just download `simple_email_sender.py` and run the program.
 
-# Usage
+No need to install anything as everything is already in the default python packages.
+
+You can test this using a temporary email receiver by going to temp-mail.org
+
+## Usage
 Just run it normally as a python program on your cmd line or terminal
 
-# Acknowledgment
+## Acknowledgment
 Special thanks to [Tomi Tokko](https://github.com/tomitokko) for showing the modern way of sending an email. Go to his channel on [YouTube](https://www.youtube.com/c/CodeWithTomi).
