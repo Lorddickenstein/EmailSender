@@ -9,11 +9,11 @@ Modern way of sending email with Python 3.x.
 
 ## Instructions
 - Before running the program:
-	- Set up your 2-Step Verification on the email that you will be using. The path is
-	`Manage your google accout>Security>Signin in to Google`
+	- Choose an email account (you can use a dummy account)
+	- Set up a 2-Step Verification on that account. You can find it in `Manage your google accout>Security>Signin in to Google`
 	- Go to `App passwords`, input your gmail passwords to confirm yourself, then `Select app>Mail`, select `other (custom name)` for the device and put 'python' or any other name
 	- Click `GENERATE` and make sure that you copy the generated code
-	- Add the code to your environmental variables or even better, use venv by python
+	- Add the code to your environmental variables or even better, use venv by python. You you can also go to `conf.py` inside the "web" folder and specify there the needed credentials. Don't forget to comment the last two lines
 
 ## Installations and Setups
 
