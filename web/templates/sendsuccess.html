@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Email Sent{% endblock %}
+
+{% block content %}
+	<div class="status-message">
+		<form method="POST">
+			<div class="timer" onload="countDown()">
+				<div class="circle">
+					10
+				</div>
+			</div>
+			<div>
+				<p>Your email has been sent successfully.</p>
+				<input type="submit" id="button-submit" name="button-submit" value="Continue" disabled>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript">
+		countDown()
+	</script>
+{% endblock %}
