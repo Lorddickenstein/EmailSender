@@ -36,7 +36,7 @@ def send_email(receiver, subject, message):
 
 	context = ssl.create_default_context()
 
-	with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
+	with smtplib.SMTP_SSL(host='smtp.gmail.com', port=465, context=context) as smtp:
 		smtp.login(sender, password)
 		smtp.sendmail(sender, receiver, em.as_string())
 		print('Email has been sent!')

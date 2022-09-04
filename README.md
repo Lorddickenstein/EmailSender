@@ -1,7 +1,7 @@
 # Simple Email Sender
-![![home](./images/home.png)](https://github.com/Lorddickenstein/EmailSender)
+[![home](./images/home.png)](https://github.com/Lorddickenstein/EmailSender)
 Modern way of sending email with Python 3.x.
-![![email_success](./images/email.success)](https://github.com/Lorddickenstein/EmailSender)
+[![email_success](./images/email.success)](https://github.com/Lorddickenstein/EmailSender)
 
 ## Instructions
 - Before running the program:
