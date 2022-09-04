@@ -1,7 +1,11 @@
 # Simple Email Sender
 [![home](./images/home.png)](https://github.com/Lorddickenstein/EmailSender)
-Modern way of sending email with Python 3.x.
+Home Page
+
 [![email_success](./images/email_success.png)](https://github.com/Lorddickenstein/EmailSender)
+Redirection Page
+
+Modern way of sending email with Python 3.x.
 
 ## Instructions
 - Before running the program:
